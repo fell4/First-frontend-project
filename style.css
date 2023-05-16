@@ -1,0 +1,118 @@
+html {
+  box-sizing: border-box;
+  font-family: karla;
+  font-size: 16px;
+}
+
+body { 
+padding: 20px;
+}
+
+h2, h4, p {
+  margin: 0px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#card {
+  width: 600px;
+  height: 400px;
+  box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#top {
+  width: 100%;
+  height: 45%;  
+  padding: 25px;
+}
+
+#bottom {
+   width: 100%;
+  height: 55%;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: red;
+  transform: scale(1.1);
+}
+
+#left {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #2ab2af;
+  padding: 25px;
+}
+
+#right {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #1ac9c1;
+  padding: 25px;
+}
+
+#top h2 {
+  color: #2ab2af;
+  margin-bottom: 15px;
+}
+
+#top h4 {
+  color: orange;
+  margin-bottom: 10px;
+}
+
+#top p {
+  color: grey;
+}
+
+button {
+  color: white;
+  background-color: orange;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#price {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+#left h4 {
+  margin-bottom: 15px;
+}
+
+#price-freq, #price {
+  display: inline;
+}
+
+#price-freq {
+  position: relative;
+  top: -3px;
+  opacity: 0.8;
+  margin-left: 5px;
+}
+
+#left p {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#right ul {
+  padding: 0px;
+  list-style: none;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
